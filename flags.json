@@ -1,0 +1,4 @@
+{
+  "sql_injection": false,
+  "broken_auth": true
+}

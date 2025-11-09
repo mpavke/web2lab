@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Vulnerabilities</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    
+    <section>
+      <h1><label><input type="checkbox" id="IdToggle"> Odabir isprobavanja određene ranjvosti (označeno - SQL, neoznačeno - Auth)</label><br></h1>
+      <h2>Vulnerabilities (toggle)</h2>
+      <label><input type="checkbox" id="sqlToggle"> SQL Injection - Vulnerable</label><br>
+      <label><input type="checkbox" id="authToggle"> Broken Authentication - Vulnerable</label>
+      
+    </section>
+
+    <section>
+      <h2>Attack panel (simulate)</h2>
+      <input id="username" placeholder="Write username" />
+      <input id="password" type="password" placeholder="Write password" />
+      <button id="attackBtn">Run attack</button>
+    </section>
+
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
